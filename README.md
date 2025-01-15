@@ -24,6 +24,8 @@ Evolved Salesman introduces the principles of evolution strategies. An initial p
 | Algorithm | Vanuatu | Italy | Russia | US | China |
 |-----------|---------|-------|--------|----|-------|
 | Greedy TSP | 1475.528 | 4436.032 | 42334.165 | 48050.026 | 63962.918 |
-| Greedier TSP | 1475.528 | 4436.032 | 41526.351 | 46399.676 | 63057.191 |
-| Tabu Search | 1345.545 | 4329.671 | 39587.979 | 48036.738 | 63844.747 |
-| Evolved Salesman | 1345.545 | 4260.041 | 40536.032 | 46907.592 | 58331.580 |
+| Greedier TSP | 1475.528 | 4576.195 | 40051.587 | 46997.434 | 62439.532 |
+| Tabu Search | 1345.545 | 4429.095 | 42334.165 | 48050.026 | 63962.918 |
+| Evolved Salesman | 1345.545 | 4429.095 | 40802.405 | 47284.889 | 63433.308 |
+
+It's noticeable that Greedier TSP, while in cases as with Russia and China surprisingly provides the best result, is generally an unstable approach requiring a lot of computational time when dealing with big datasets. Tabu Search and ES offer a faster and more efficient way to improve the results obtained with the simple greedy method.
